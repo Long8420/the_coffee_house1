@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/header">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Chào bạn,"
+        android:textSize="30dp"
+        android:textColor="#323232"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#323232"
+        android:textSize="18dp"
+        android:text="Nhập số điện thoại để tiếp tục">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        android:background="@drawable/duongvien1">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/covietnam">
+        </ImageView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_xoxuong"
+            android:layout_gravity="center"
+            ></ImageView>
+
+        <EditText
+            android:id="@+id/nhapsdt_126"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:hint="Nhập số điện thoại"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:textColorHint="#000"></EditText>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hoặc đăng nhập bằng"
+        android:textSize="18dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#323232"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnface_126"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Facebook"
+        android:textColor="#FFF"
+        android:background="@drawable/duongvien2">
+    </Button>
+    <Button
+        android:id="@+id/btnemail_126"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Email"
+        android:textColor="#FFF"
+        android:background="@drawable/duongvien3">
+    </Button>
+    </LinearLayout>
+    <Button
+        android:id="@+id/boqua_126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:text="Bỏ qua"
+        android:textSize="18dp"
+        android:textColor="#9CC7FC"
+        android:layout_marginLeft="165dp"
+        android:background="@null"
+        android:layout_centerHorizontal="true"></Button>
+</LinearLayout>
+

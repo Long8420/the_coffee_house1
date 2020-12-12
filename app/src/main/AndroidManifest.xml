@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="baitap.ute.th_the_coffee_house">
+//map
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TH_the_coffee_house">
+        //map
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDAqUwcN07tioAGQJ-qOvL7fk0X2uZmZpk" />
+
+        <activity android:name=".TaiKhoan.listtaikhoan.CaiDatActivity"></activity>
+        <activity android:name=".TaiKhoan.listtaikhoan.GiupdoActivity" />
+        <activity android:name=".TaiKhoan.listtaikhoan.LichsudonhangActivity" />
+        <activity android:name=".TaiKhoan.listtaikhoan.ThongtincanhanActivity" />
+        <activity android:name=".TaiKhoan.listtaikhoan.ThongtinthanhvienActivity" />
+        <activity android:name=".Reward" />
+        <activity android:name=".Tichdiem" />
+        <activity android:name=".Coupon" />
+        <activity android:name=".Thongbaochuong" />
+        <activity android:name=".Nhapmaxacthuc" />
+        <activity android:name=".Nhapsodienthoai" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

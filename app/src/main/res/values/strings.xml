@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TH_the_coffee_house</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_footer">MainActivity</string>
+    <string name="title_tintuc">Tin tức</string>
+    <string name="title_dathang">Đặt hàng</string>
+    <string name="title_cuahang">Cửa hàng</string>
+    <string name="title_taikhoan">Tài khoản</string>
+    <string name="dathang">Đặt Hàng</string>
+    <string name="tichdiem">Tích Điểm</string>
+    <string name="coupon">Coupon</string>
+    <string name="rewards">Rewards</string>
+    <string name="noiqui1">Điểm nhận hàng không quá 5km so với cửa hàng gần nhất, để đảm bảo chát lượng nước.
+    (*) Nếu khoảng cách xa hơn thì phải có sự đồng ý của khách khi xác nhận đơn hàng.</string>
+</resources>

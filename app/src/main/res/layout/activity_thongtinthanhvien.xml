@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiKhoan.listtaikhoan.ThongtinthanhvienActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rl_thoat">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_round_close_24"
+            />
+        <TextView
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin thành viên"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background_tv">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="340dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cafe">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="80dp"
+            android:background="#989494"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:text="2"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ưu đãi"
+                android:drawableRight="@drawable/right"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+     <Button
+         android:background="#fff"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:text="Lịch sử Bean thưởng"
+         android:drawableRight="@drawable/right">
+     </Button>
+        <Button
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Tìm hiểu chương trình"
+            android:drawableRight="@drawable/right">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn đang là thành viên mới"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"></TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Chưa tích điểm"
+            android:layout_marginLeft="10dp"></TextView>
+    </LinearLayout>
+</LinearLayout>
